@@ -5,7 +5,7 @@
 The roblox library that will make creating particles/effects easily. Example listed below.:
 
 
-``local mvef = require(game.ReplicatedStorage:WaitForChild("mvef")) -- Use loadstring if external
+``local mvef = require(game.ReplicatedStorage:WaitForChild("mvef"))
 mvef:CreateEffect("Water Splash")
 mvef:EditEffect("Water Splash", "loop", "fast", "WaterSplash")
 mvef:DisplayEffect("Water Splash")
