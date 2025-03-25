@@ -12,7 +12,7 @@ mvef:DisplayEffect("Water Splash")
 task.delay(3, function()
     mvef:StopEffect("Water Splash")
     mvef:CreateEffect("Water Burst")
-    mvef:EditEffect("Water Burst", 50, "slow", "WaterSplash") -- 50 slow particles
+    mvef:EditEffect("Water Burst", 50, "slow", "WaterSplash")
     mvef:DisplayEffect("Water Burst")
     task.delay(2, function()
         mvef:StopEffect("Water Burst")
